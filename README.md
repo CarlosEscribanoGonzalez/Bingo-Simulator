@@ -1,18 +1,41 @@
 # Bingo Simulator
 
-This is a **Bingo simulator** developed in **Java** during my first year of university. It served as my first approach to understanding and working with **data structures**.
+## Overview
+Bingo simulator developed in Java for a first-year data structures course. All data structures are implemented from scratch, without relying on built-in collection classes or external packages, and are used to simulate complete bingo games for 2 to 4 players.
 
-### About the Project
+## Game Simulation
 
-The data structures were implemented from scratch with the objective of gaining a deeper understanding of their behavior and characteristics. This approach allowed me to learn the core concepts of data management in Java without relying on built-in libraries, providing a solid foundation in programming.
+* Support for 2 to 4 players per game
+* Configurable number of sessions per game
+* Configurable number of balls in play
+* Configurable points awarded for completing a line
+* Configurable points awarded for calling bingo
+* Score tracking across sessions
 
-### Features
-- Custom implementation of key data structures.
-- Simulates a classic bingo game.
+## Data Structures
 
-### Technologies
-- **Java**
+All structures were implemented manually to understand their behavior, complexity and trade-offs.
 
----
+**Linked List**
 
-Feel free to explore the code and check out my other projects on [GitHub](https://github.com/).
+* Dynamic sequence with insertion and removal by node references
+* Used for data whose size changes during the game
+
+**Sorted Linked List**
+
+* Elements are kept in order on every insertion
+* Allows ordered traversal without a separate sorting step
+
+**Set**
+
+* Collection of unique elements with no duplicates
+* Membership checks for matching drawn numbers
+
+**Arrays**
+
+* Fixed-size storage for data with a known size
+
+## Other features
+
+* No built-in collections
+* No external libraries or packages
