@@ -1,5 +1,3 @@
-# Bingo Simulator
-
 ## Overview
 Bingo simulator developed in Java for a first-year data structures course. All data structures are implemented from scratch, without relying on built-in collection classes or external packages, and are used to simulate complete bingo games for 2 to 4 players.
 
