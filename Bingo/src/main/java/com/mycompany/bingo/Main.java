@@ -1,32 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package com.mycompany.bingo;
 
-/**
- *
- * @author Usuario
- */
 public class Main {
-    
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        TandaPartidas tanda = new TandaPartidas();
-        
-        tanda.pedirJugadores();
-        
-        tanda.pedirNombres();
-        
-        tanda.pedirNumBolas();
-        
-        tanda.pedirValoresPuntos();
-        
-        tanda.pedirNumPartidas();
-        
-        tanda.jugarPartidas();
+        GameSession session = new GameSession();
+        session.requestPlayers();
+        session.requestNames();
+        session.requestNumBalls();
+        session.requestPoints();
+        session.requestNumGames();
+        session.playGames();
     }
     
 }
