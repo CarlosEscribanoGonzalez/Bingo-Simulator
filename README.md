@@ -12,26 +12,11 @@ Bingo simulator developed in Java for a first-year data structures course. All d
 
 ## Data Structures
 
-All structures were implemented manually to understand their behavior, complexity and trade-offs.
-
-**Linked List**
-
-* Dynamic sequence with insertion and removal by node references
-* Used for data whose size changes during the game
-
-**Sorted Linked List**
-
-* Elements are kept in order on every insertion
-* Allows ordered traversal without a separate sorting step
-
-**Set**
-
-* Collection of unique elements with no duplicates
-* Membership checks for matching drawn numbers
-
-**Arrays**
-
-* Fixed-size storage for data with a known size
+All structures were implemented manually to understand their behavior, complexity and trade-offs:
+* List
+* Linked List
+* Sorted Linked List
+* Set
 
 ## Other features
 
